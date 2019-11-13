@@ -1,0 +1,107 @@
+/* content main area in grid */
+.content-gallery {
+  grid-area: main;
+  display: grid;
+  margin-bottom: 5%;
+  grid-gap: 2%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas:
+  "hd1 hd1 hd1 hd1"
+  "one two three text1"
+  "four five six text2"
+  "seven eight nine text3";
+}
+
+/* image boxes */
+.gallery {
+  margin: 15%;
+  width: 100px;
+  height: 140px;
+  border: 1px solid black;
+  background: contain no-repeat #333;
+}
+
+/* header box */
+.gallery-header {
+  grid-area: hd1;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #585858;
+  color: white;
+}
+
+.gallery-header h2 {
+  font-weight: lighter;
+}
+
+/* photos to gallery */
+.gallery.one1 {
+  grid-area: one;
+  background-image: url(photo/D1.jpg);
+}
+
+.gallery.two2 {
+  grid-area: two;
+  background-image: url(photo/C.jpg);
+}
+
+.gallery.three3 {
+  grid-area: three;
+  background-image: url(photo/B.jpg);
+}
+
+.gallery.four4 {
+  grid-area: four;
+  background-image: url(photo/A.jpg);
+}
+
+.gallery.five5 {
+  grid-area: five;
+  background-image: url(photo/F.jpg);
+}
+
+.gallery.six6 {
+  grid-area: six;
+  background-image: url(photo/E.jpg);
+}
+
+.gallery.seven7 {
+  grid-area: seven;
+  background-image: url(photo/G.jpg);
+}
+
+.gallery.eight8 {
+  grid-area: eight;
+  background-image: url(photo/H.jpg);
+}
+
+.gallery.nine9 {
+  grid-area: nine;
+  background-image: url(photo/J.jpg);
+}
+
+/* text boxes*/
+.gallery-text {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-weight: lighter;
+  word-break: break-word;
+}
+
+/* apply text to boxes */
+.gallery-text.text1 {
+  grid-area: text1;
+}
+
+.gallery-text.text2 {
+  grid-area: text2;
+}
+
+.gallery-text.text3 {
+  grid-area: text3;
+}
