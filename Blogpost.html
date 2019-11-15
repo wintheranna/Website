@@ -5,13 +5,14 @@
   <title>Blog</title>
   <script src ="../js/app.js">
   </script>
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
 
 <!-- navigation bar -->
+    <nav>
     <ul class="navbar">
       <li><a href="index.html">Home</a></li>
       <li><a href="blogpost.html">Blog</a></li>
@@ -19,17 +20,19 @@
       <li><a href="About.html">About</a></li>
       <li><a href="Contact.html">Contact</a></li>
     </ul>
+    </nav>
 
 <!-- webpage header -->
-    <div class="header"><h1> W I N T H E R L A N D </h1>
-      <h2>- the life of photography</h2></div>
+
+    <header class="header"><h1> W I N T H E R L A N D </h1>
+      <h2>- the life of photography</h2></header>
 
 <!-- blogposts -->
-    <div class="blogpage">
-      <div class="blogposts">
+    <section class="blogpage">
+      <article class="blogposts">
         <h1 class="text">Photography in black & white</h1>
         <h2 class="text">2019-10-05 By Anna Winther
-          <a href="About.html"><img src="../css/photo/Anna.jpg" alt="Anna"
+          <a href="About.html"><img src="css/photo/Anna.jpg" alt="Anna"
             class="avatar"></a></h2>
         <p class="text"><br>Photography in black and white or grayscale are a
           popular expression for photo art. Its subtle expression make you pay
@@ -54,12 +57,12 @@
           save a lot of money by not needing to adjust the colors all the time
           to get the perfetct photo.</p>
         <i onclick="myFunction(this)" id="thumbs" class="fa fa-thumbs-up"></i>
-      </div>
+      </article>
 
-      <div class="blogposts" id="blogpost2">
+      <article class="blogposts" id="blogpost2">
         <h1 class="text">Nature photos in winter</h1>
         <h2 class="text">2019-10-01 By Anna Winther
-          <a href="About.html"><img src="../css/photo/Anna.jpg" alt="Anna"
+          <a href="About.html"><img src="css/photo/Anna.jpg" alt="Anna"
             class="avatar"></a></h2>
         <p class="text">Winter can be a tricky time to take photos since the
           light isn't that good and you often need to get up early to catch the
@@ -84,12 +87,12 @@
           tips from this post, and hopefully it will help you come closer to
           those beautiful winter photos.</p>
         <i onclick="myFunction(this)" id="thumbs" class="fa fa-thumbs-up"></i>
-      </div>
+      </article>
 
-      <div class="blogposts" id="blogpost3">
+      <article class="blogposts" id="blogpost3">
         <h1 class="text">Use Photoshop to edit your photos</h1>
         <h2 class="text">2019-09-27 By Anna Winther
-          <a href="About.html"><img src="../css/photo/Anna.jpg" alt="Anna"
+          <a href="About.html"><img src="css/photo/Anna.jpg" alt="Anna"
             class="avatar"></a></h2>
         <p class="text"><br>One of the absolutely best tools when it comes to
           editing is Photoshop. With Photoshop you can do pretty much everything
@@ -110,11 +113,11 @@
           Hopefully you find as much use of editing software as I do, and if you
           have any questions, feel free to contact me. I'm happy to help!</p>
         <i onclick="myFunction(this)" id="thumbs" class="fa fa-thumbs-up"></i>
-      </div>
-    </div>
+      </article>
+    </section>
 
 <!-- webpage sidebar -->
-    <div class="sidebar">
+    <aside class="sidebar">
       <h3 class="headerbox">Recent Posts...</h3>
       <a class="box" href="Blogpost.html">Photography in black & white - 5/10/19</a>
       <a class="box" href="Blogpost.html#blogpost2">Nature photos in winter - 1/10/19</a>
@@ -125,10 +128,10 @@
         <a href="https://www.linkedin.com/in/annawinther" target="_blank"
           class="fa fa-linkedin"></a>
       </div>
-    </div>
+    </aside>
 
 <!-- footer -->
-    <div class="footer"><h4>W I N T H E R L A N D</h4> - by Anna Winther 2019</div>
+    <footer class="footer"><h4>W I N T H E R L A N D</h4> - by Anna Winther 2019</footer>
   </div>
 </body>
 </html>
